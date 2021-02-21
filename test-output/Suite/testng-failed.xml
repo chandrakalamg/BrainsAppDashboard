@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.main.testcases.SignInPageTest">
+        <methods>
+          <include name="pageTitleTest"/>
+          <include name="signoutTest"/>
+          <include name="signInPageWithDetails"/>
+          <include name="setUp"/>
+          <include name="signInTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.main.testcases.SignInPageTest -->
+      <class name="com.qa.main.testcases.DashboardPageTest">
+        <methods>
+          <include name="verifyLearnLinksTest"/>
+          <include name="verifySharedwithYouTest"/>
+          <include name="verifyDeleteDashboardTest"/>
+          <include name="setUp"/>
+          <include name="verifyDashBoardTest"/>
+          <include name="verifySethomeBtnTest"/>
+          <include name="verifyExportdataTest"/>
+          <include name="verifyduplicateDashboardTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.main.testcases.DashboardPageTest -->
+      <class name="com.qa.main.testcases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageUserNameTest"/>
+          <include name="tearDown"/>
+          <include name="verifyDashBoardTest"/>
+          <include name="setUp"/>
+          <include name="verifySelectDashBoardTest"/>
+        </methods>
+      </class> <!-- com.qa.main.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

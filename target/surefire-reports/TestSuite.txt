@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 132.482 s <<< FAILURE! - in TestSuite
+verifyHomePageUserNameTest(com.qa.main.testcases.HomePageTest)  Time elapsed: 1.014 s  <<< FAILURE!
+java.lang.AssertionError: Failed expected [title check failed] but found [menna+automation@intellisense.io]
+	at com.qa.main.testcases.HomePageTest.verifyHomePageUserNameTest(HomePageTest.java:52)
+
+verifyExportdataDownloadTest(com.qa.main.testcases.DashboardPageTest)  Time elapsed: 20.178 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FBFACADN', ip: '192.168.2.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Murali\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62140}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cafe465349677d2e36f30502f7916a0
+	at com.qa.main.testcases.DashboardPageTest.verifyExportdataDownloadTest(DashboardPageTest.java:95)
+
